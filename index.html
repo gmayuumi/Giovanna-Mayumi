@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & Metadados Otimizados -->
+    <title>Giovanna Mayumi | Desenvolvedora Front-End de Alta Performance</title>
+    <meta name="description" content="Especialista em criar Landing Pages e Websites que convertem. Transformo design em código limpo, rápido e otimizado para SEO, impulsionando resultados para o seu negócio.">
+    <meta name="keywords" content="Desenvolvedora Front-End, Landing Pages, Websites, UI/UX, SEO, Giovanna Mayumi, Conversão, Performance">
+    <meta name="author" content="Giovanna Mayumi">
+    <meta name="theme-color" content="#ff004f">
+
+    <!-- Open Graph (SEO Avançado para Redes Sociais) -->
+    <meta property="og:title" content="Giovanna Mayumi | Desenvolvedora Front-End de Alta Performance">
+    <meta property="og:description" content="Especialista em criar Landing Pages e Websites que convertem. Transformo design em código limpo, rápido e otimizado para SEO, impulsionando resultados para o seu negócio.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800">
+    <meta property="og:url" content="https://seusite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Dependências -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header">
+        <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+        <nav class="nav container">
+            <div class="nav__menu nav__menu--left">
+                <a href="#about" class="nav__link">Sobre</a>
+                <a href="#services" class="nav__link">Soluções</a>
+            </div>
+            <a href="#" class="nav__logo">Giovanna Mayumi</a>
+            <div class="nav__menu nav__menu--right">
+                <a href="#projects" class="nav__link">Projetos</a>
+                <a href="#contact" class="nav__link">Contato</a>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="mobile__menu" id="mobile-menu">
+        <div class="mobile__close" id="mobile-close"><i class='bx bx-x'></i></div>
+        <ul class="mobile__list">
+            <li><a href="#about" class="mobile__link">Sobre</a></li>
+            <li><a href="#services" class="mobile__link">Soluções</a></li>
+            <li><a href="#projects" class="mobile__link">Projetos</a></li>
+            <li><a href="#skills" class="mobile__link">Skills</a></li>
+            <li><a href="#contact" class="mobile__link">Contato</a></li>
+        </ul>
+    </div>
+
+    <main class="main">
+        <!-- ==================== HERO ==================== -->
+        <section class="hero">
+            <div class="hero__container container grid">
+                <div class="hero__content">
+                    <div class="hero__art-container">
+                        <svg class="hero__cyber-core" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                            <defs><linearGradient id="core-gradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ff004f" /><stop offset="100%" stop-color="#8a00c2" /></linearGradient><filter id="core-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12" result="coloredBlur" /><feMerge><feMergeNode in="coloredBlur" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs>
+                            <g class="orbital-rings" fill="none" stroke-opacity="0.7"><circle cx="250" cy="250" r="180" stroke="#00d9ff" stroke-width="1" stroke-dasharray="2 10"/><circle cx="250" cy="250" r="210" stroke="#ff004f" stroke-width="0.5" stroke-dasharray="5 5"/><circle cx="250" cy="250" r="240" stroke="#8a00c2" stroke-width="1" stroke-dasharray="1 20"/></g>
+                            <g class="circuits" fill="none" stroke="url(#core-gradient)" stroke-width="2" stroke-linecap="round"><path d="M 250, 50 V 150" /><path d="M 250, 450 V 350" /><path d="M 50, 250 H 150" /><path d="M 450, 250 H 350" /><path d="M 127, 127 L 180, 180" /><path d="M 373, 373 L 320, 320" /><path d="M 127, 373 L 180, 320" /><path d="M 373, 127 L 320, 180" /></g>
+                            <g class="core" filter="url(#core-glow)"><circle cx="250" cy="250" r="100" fill="none" stroke="url(#core-gradient)" stroke-width="4" /><circle cx="250" cy="250" r="80" fill="none" stroke="#fff" stroke-width="1" stroke-opacity="0.8" /></g>
+                        </svg>
+                    </div>
+                    <div class="hero__text">
+                        <h1 class="hero__title">Interfaces que Convertem.</h1>
+                        <p class="hero__subtitle">Eu construo o futuro digital da sua marca com código de precisão e design de impacto.</p>
+                        <a href="https://wa.me/5511948562304?text=Olá,%20Giovanna!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" class="button">Inicie seu Projeto Agora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SOBRE MIM ==================== -->
+        <section class="about section" id="about">
+            <h2 class="section__title container">A Arquiteta por Trás do Código</h2>
+            <div class="about__container container grid">
+                <div class="about__content">
+                    <p class="about__description">
+                        Olá, sou Giovanna Mayumi, uma desenvolvedora Front-End apaixonada por transformar ideias em realidade digital. Minha especialidade é criar <strong>Landing Pages e Websites de alta conversão</strong>, onde cada linha de código e cada elemento de design trabalham juntos para um único objetivo: gerar resultados para o seu negócio.
+                    </p>
+                    <p class="about__description">
+                        Todos os meus projetos são construídos sobre três pilares: <strong>performance impecável</strong>, <strong>experiência de usuário intuitiva</strong> e <strong>SEO estratégico</strong>, garantindo que seu site não apenas pareça incrível, mas que também seja encontrado e amado pelo seu público-alvo.
+                    </p>
+                    <a href="#services" class="button about__button">Veja como posso ajudar</a>
+                </div>
+                <div class="about__icon-container">
+                    <i class='bx bx-code-curly about__icon'></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SERVIÇOS ==================== -->
+        <section class="services section" id="services">
+            <h2 class="section__title container">Soluções Digitais Estratégicas</h2>
+            <div class="services__container container grid">
+                <div class="service__card"><i class='bx bx-rocket service__icon'></i><h3 class="service__title">Landing Pages de Alta Conversão</h3><p class="service__description">Páginas de aterrissagem projetadas cirurgicamente para capturar leads e impulsionar vendas com uma chamada para ação irresistível.</p></div>
+                <div class="service__card"><i class='bx bx-code-block service__icon'></i><h3 class="service__title">Websites Institucionais de Impacto</h3><p class="service__description">Crio a presença online definitiva para sua marca, comunicando seus valores com autoridade, profissionalismo e um design memorável.</p></div>
+                <div class="service__card"><i class='bx bx-line-chart service__icon'></i><h3 class="service__title">Otimização e SEO Técnico</h3><p class="service__description">Elevo a performance do seu site existente, garantindo velocidade máxima e as melhores práticas de SEO para dominar os motores de busca.</p></div>
+            </div>
+        </section>
+        
+        <!-- ==================== PROJETOS (CARDS CLICÁVEIS) ==================== -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title container">Projetos recentes</h2>
+            <div class="projects__container_wrapper">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+                        
+                        <!-- Projeto 1 -->
+                        <a href="https://gmayuumi.github.io/ALTUM-Mentoria-Executiva-de-Alta-Performance/" target="_blank" class="project__link swiper-slide">
+                            <div class="project__card">
+                                <img src="https://i.ibb.co/5xs65vjv/altum-1.png" alt="Projeto ALTUM." class="project__img" loading="lazy">
+                                <div class="project__overlay"><div class="project__data"><h3 class="project__title">ALTUM.</h3><span class="project__subtitle">Mentoria Executiva</span></div></div>
+                            </div>
+                        </a>
+                        
+                        <!-- Projeto 2 -->
+                        <a href="https://gmayuumi.github.io/EDUMAX-Academy/" target="_blank" class="project__link swiper-slide">
+                             <div class="project__card">
+                                <img src="https://i.ibb.co/6Rn1fqsw/edumax.png" alt="Projeto EDUMAX" class="project__img" loading="lazy">
+                                <div class="project__overlay"><div class="project__data"><h3 class="project__title">EDUMAX</h3><span class="project__subtitle">Consultoria de Games</span></div></div>
+                            </div>
+                        </a>
+
+                        <!-- Projeto 3 -->
+                        <a href="https://gmayuumi.github.io/Alta-Vista-Im-veis/" target="_blank" class="project__link swiper-slide">
+                            <div class="project__card">
+                                <img src="https://i.ibb.co/pB5pBwVR/alta-vista.png" alt="Projeto Alta Vista" class="project__img" loading="lazy">
+                                <div class="project__overlay"><div class="project__data"><h3 class="project__title">Alta Vista Imóveis</h3><span class="project__subtitle">Imobiliária</span></div></div>
+                            </div>
+                        </a>
+
+                        <!-- Projeto 4 -->
+                        <a href="https://gmayuumi.github.io/Aesthetica-Brasil/" target="_blank" class="project__link swiper-slide">
+                            <div class="project__card">
+                                <img src="https://i.ibb.co/YFWTmcHz/aesthetica.png" alt="Projeto Aesthetica" class="project__img" loading="lazy">
+                                <div class="project__overlay"><div class="project__data"><h3 class="project__title">Aesthetica Brasil</h3><span class="project__subtitle">Consultório de Estética</span></div></div>
+                            </div>
+                        </a>
+                        
+                        <!-- Projeto 5 -->
+                        <a href="https://gmayuumi.github.io/Fleur-de-Sucre-P-tisserie-de-ateli-/" target="_blank" class="project__link swiper-slide">
+                            <div class="project__card">
+                                <img src="https://i.ibb.co/C3ZCn8BH/fleur-1.png" alt="Projeto Fleur de Sucre" class="project__img" loading="lazy">
+                                <div class="project__overlay"><div class="project__data"><h3 class="project__title">Fleur de Sucre</h3><span class="project__subtitle">Patisserie de Ateliê</span></div></div>
+                            </div>
+                        </a>
+
+                        <!-- Projeto 6 -->
+                        <a href="https://gmayuumi.github.io/STRATEGIQ-Marketing/" target="_blank" class="project__link swiper-slide">
+                            <div class="project__card">
+                                <img src="https://i.ibb.co/KzhZk1sW/strategiq.png" alt="Projeto STRATEGIQ" class="project__img" loading="lazy">
+                                <div class="project__overlay"><div class="project__data"><h3 class="project__title">STRATEGIQ</h3><span class="project__subtitle">Marketing Estratégico</span></div></div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <!-- Setas de Navegação -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        
+        <!-- ==================== SKILLS ==================== -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title container">Arsenal Tecnológico</h2>
+            <div class="skills__container container grid">
+                <div class="skills__content"><h3 class="skills__title">Fundamentos Sólidos</h3><div class="skills__group"><i class='bx bxl-html5 skills__icon'></i><i class='bx bxl-css3 skills__icon'></i><i class='bx bxl-javascript skills__icon'></i></div><p class="skills__description">Domínio da base da web para construir interfaces semânticas, acessíveis e perfeitamente responsivas em qualquer dispositivo.</p></div>
+                <div class="skills__content"><h3 class="skills__title">Ecossistema Moderno</h3><div class="skills__group"><i class='bx bxl-react skills__icon'></i><i class='bx bxl-tailwind-css skills__icon'></i><i class='bx bxl-figma skills__icon'></i></div><p class="skills__description">Utilizo as ferramentas mais eficientes do mercado para criar UIs dinâmicas, escaláveis e traduzir designs complexos em código de alta fidelidade.</p></div>
+            </div>
+        </section>
+
+        <!-- ==================== FAQ ==================== -->
+        <section class="faq section" id="faq">
+            <h2 class="section__title container">Perguntas Frequentes</h2>
+            <div class="faq__container container grid">
+                <details class="faq__item">
+                    <summary class="faq__question">
+                        <span>Qual o prazo médio para a entrega de uma Landing Page?</span>
+                        <i class='bx bx-chevron-down faq__chevron'></i>
+                    </summary>
+                    <p class="faq__answer">
+                        Uma Landing Page de alta performance geralmente leva de 3 a 5 dias para ser desenvolvida, desde o briefing até a publicação. Esse prazo garante tempo para pesquisa, design, desenvolvimento e testes de otimização para garantir o máximo de resultado.
+                    </p>
+                </details>
+
+                <details class="faq__item">
+                    <summary class="faq__question">
+                        <span>Todos os seus projetos incluem otimização para SEO?</span>
+                        <i class='bx bx-chevron-down faq__chevron'></i>
+                    </summary>
+                    <p class="faq__answer">
+                        Com certeza. SEO não é um extra, é parte fundamental do meu processo. Todos os sites e landing pages são construídos com as melhores práticas de SEO técnico, estrutura semântica e performance, criando uma base sólida para seu ranqueamento no Google.
+                    </p>
+                </details>
+
+                <details class="faq__item">
+                    <summary class="faq__question">
+                        <span>Como funciona o processo para iniciar um projeto com você?</span>
+                        <i class='bx bx-chevron-down faq__chevron'></i>
+                    </summary>
+                    <p class="faq__answer">
+                        É simples! O primeiro passo é clicar no botão de contato e me chamar no WhatsApp. Faremos uma breve reunião online para eu entender suas metas e necessidades. Em seguida, eu elaboro uma proposta detalhada. Com a aprovação, damos início à transformação digital da sua marca.
+                    </p>
+                </details>
+            </div>
+        </section>
+
+        <!-- ==================== CTA FINAL ==================== -->
+        <section class="contact section" id="contact">
+            <div class="cta__container container">
+                <div class="cta__decoration cta__decoration--1"></div>
+                <div class="cta__decoration cta__decoration--2"></div>
+                <h2 class="cta__title">Sua Ideia Merece a Melhor Execução.</h2>
+                <p class="cta__text">
+                    Não espere a concorrência sair na frente. A oportunidade de ter uma presença online que gera autoridade e vendas está a uma mensagem de distância. Vamos transformar sua visão em uma experiência digital inesquecível.
+                </p>
+                <a href="https://wa.me/5511948562304?text=Olá,%20Giovanna!%20Vi%20seu%20portfólio%20e%20quero%20transformar%20minha%20ideia%20em%20realidade." target="_blank" class="button cta__button">
+                    Fale Comigo Agora no WhatsApp
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Giovanna Mayumi. Todos os direitos reservados. Uma experiência digital construída do zero.</p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
