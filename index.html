@@ -27,7 +27,8 @@
             </div>
             <div class="nav__group nav__group--right">
                 <a href="#projects" class="nav__link">Projetos</a>
-                <a href="#contact" class="nav__link">Contato</a>
+                <!-- Link "Contato" substituído por "Planos" -->
+                <a href="#plans" class="nav__link">Planos</a>
                 <i class='bx bx-brush theme-button' id="theme-button"></i>
             </div>
         </nav>
@@ -35,10 +36,13 @@
 
     <div class="mobile__menu" id="mobile-menu">
         <div class="mobile__close" id="mobile-close"><i class='bx bx-x'></i></div>
+        <!-- Menu mobile com todas as seções -->
         <ul class="mobile__list">
             <li><a href="#about" class="mobile__link">Sobre Mim</a></li>
             <li><a href="#services" class="mobile__link">Soluções</a></li>
+            <li><a href="#process" class="mobile__link">Processo</a></li>
             <li><a href="#projects" class="mobile__link">Projetos</a></li>
+            <li><a href="#plans" class="mobile__link">Planos</a></li>
             <li><a href="#testimonials" class="mobile__link">Clientes</a></li>
             <li><a href="#ideal-for" class="mobile__link">Para Quem É</a></li>
             <li><a href="#faq" class="mobile__link">Dúvidas</a></li>
@@ -80,7 +84,6 @@
             </div>
         </section>
 
-        <!-- NOVA ORDEM DAS SEÇÕES -->
         <section class="services section" id="services">
             <h2 class="section__title container">Soluções que Transformam Sua Ideia em Resultados</h2>
             <div class="services__container container grid">
@@ -95,7 +98,6 @@
                     <p class="service__description">Sua empresa precisa de uma vitrine digital? Desenvolvo um site institucional que transmite autoridade e profissionalismo para sua marca.</p>
                 </div>
                 <div class="service__card">
-                    <!-- ÍCONE CORRIGIDO -->
                     <i class='bx bx-line-chart service__icon'></i>
                     <h3 class="service__title">Performance de Verdade</h3>
                     <p class="service__description">Seu site atual está lento ou não aparece no Google? Faço uma otimização completa para que ele seja rápido, seguro e encontrado por quem precisa.</p>
@@ -141,27 +143,21 @@
         <section class="testimonials section" id="testimonials">
             <h2 class="section__title container">Resultados que Falam por Si</h2>
             <div class="testimonials__container container grid">
-                <!-- Testimonial 1 -->
                 <div class="testimonial__card">
-                   
-                    <p class="testimonial__quote">"Eu estava cética sobre o impacto de uma nova Landing Page, mas a Giovanna mudou minha perspectiva. Em menos de uma semana, ela entregou um projeto que não só ficou lindo, mas aumentou nossos leads qualificados em mais de 30%. Impressionante."</p>
+                   <p class="testimonial__quote">"Eu estava cética sobre o impacto de uma nova Landing Page, mas a Giovanna mudou minha perspectiva. Em menos de uma semana, ela entregou um projeto que não só ficou lindo, mas aumentou nossos leads qualificados em mais de 30%. Impressionante."</p>
                     <div class="testimonial__author">
                         <h4 class="testimonial__name">Mariana C.</h4>
                         <span class="testimonial__role">Cliente verificado</span>
                     </div>
                 </div>
-                <!-- Testimonial 2 -->
                 <div class="testimonial__card">
-                    
                     <p class="testimonial__quote">"Trabalhar com a Giovanna foi um alívio. Ela tem um processo claro, cumpre prazos e a comunicação é impecável. Finalmente temos um site que transmite a seriedade da nossa marca e nos enche de orgulho."</p>
                     <div class="testimonial__author">
                         <h4 class="testimonial__name">Carlos de S.</h4>
                         <span class="testimonial__role">Cliente verificado</span>
                     </div>
                 </div>
-                <!-- Testimonial 3 -->
                 <div class="testimonial__card">
-                    
                     <p class="testimonial__quote">"A Giovanna vai além do código. Ela se tornou uma parceira estratégica, preocupada com nossos resultados. O suporte pós-lançamento e a paciência para nos ensinar a gerenciar o básico foram um diferencial enorme."</p>
                     <div class="testimonial__author">
                         <h4 class="testimonial__name">Ana P.</h4>
@@ -170,7 +166,97 @@
                 </div>
             </div>
         </section>
+
         <section class="projects section" id="projects"> <h2 class="section__title container">Projetos de Sucesso</h2> <div class="projects__container_wrapper"> <div class="projects__container swiper"> <div class="swiper-wrapper"> <a href="https://gmayuumi.github.io/ALTUM-Mentoria-Executiva-de-Alta-Performance/" target="_blank" class="project__link swiper-slide"><div class="project__card"><img src="https://i.ibb.co/5xs65vjv/altum-1.png" alt="Projeto ALTUM." class="project__img" loading="lazy"><div class="project__overlay"><div class="project__data"><h3 class="project__title">ALTUM.</h3><span class="project__subtitle">Mentoria Executiva <i class='bx bx-link-external'></i></span></div></div></div></a> <a href="https://gmayuumi.github.io/EDUMAX-Academy/" target="_blank" class="project__link swiper-slide"><div class="project__card"><img src="https://i.ibb.co/6Rn1fqsw/edumax.png" alt="Projeto EDUMAX" class="project__img" loading="lazy"><div class="project__overlay"><div class="project__data"><h3 class="project__title">EDUMAX</h3><span class="project__subtitle">Consultoria de Games <i class='bx bx-link-external'></i></span></div></div></div></a> <a href="https://gmayuumi.github.io/Alta-Vista-Im-veis/" target="_blank" class="project__link swiper-slide"><div class="project__card"><img src="https://i.ibb.co/pB5pBwVR/alta-vista.png" alt="Projeto Alta Vista" class="project__img" loading="lazy"><div class="project__overlay"><div class="project__data"><h3 class="project__title">Alta Vista Imóveis</h3><span class="project__subtitle">Imobiliária <i class='bx bx-link-external'></i></span></div></div></div></a> <a href="https://gmayuumi.github.io/Aesthetica-Brasil/" target="_blank" class="project__link swiper-slide"><div class="project__card"><img src="https://i.ibb.co/YFWTmcHz/aesthetica.png" alt="Projeto Aesthetica" class="project__img" loading="lazy"><div class="project__overlay"><div class="project__data"><h3 class="project__title">Aesthetica Brasil</h3><span class="project__subtitle">Consultório de Estética <i class='bx bx-link-external'></i></span></div></div></div></a> <a href="https://gmayuumi.github.io/Fleur-de-Sucre-P-tisserie-de-ateli-/" target="_blank" class="project__link swiper-slide"><div class="project__card"><img src="https://i.ibb.co/C3ZCn8BH/fleur-1.png" alt="Projeto Fleur de Sucre" class="project__img" loading="lazy"><div class="project__overlay"><div class="project__data"><h3 class="project__title">Fleur de Sucre</h3><span class="project__subtitle">Patisserie de Ateliê <i class='bx bx-link-external'></i></span></div></div></div></a> </div> </div> <div class="swiper-button-next"></div> <div class="swiper-button-prev"></div> </div> </section>
+
+        <section class="plans section" id="plans">
+            <h2 class="section__title container">Planos Flexíveis para o Seu Sucesso</h2>
+            <div class="plans__container container grid">
+                <!-- Card 1: Essencial -->
+                <div class="plan__card">
+                    <i class='bx bx-rocket plan__icon'></i>
+                    <h3 class="plan__title">Plano Essencial</h3>
+                    <div class="plan__price">a partir de <span>R$ 350</span></div>
+                    <p class="plan__description">Landing Page Profissional que causa uma boa primeira impressão. Ideal para quem precisa mostrar sua marca de forma simples, moderna e confiável.</p>
+                    
+                    <h4 class="plan__subtitle">Inclui:</h4>
+                    <ul class="plan__list">
+                        <li><i class='bx bx-check-circle'></i>1 página com rolagem fluida (one-page)</li>
+                        <li><i class='bx bx-check-circle'></i>Layout moderno e responsivo</li>
+                        <li><i class='bx bx-check-circle'></i>Integração com WhatsApp e redes sociais</li>
+                        <li><i class='bx bx-check-circle'></i>Design exclusivo com identidade da marca</li>
+                        <li><i class='bx bx-check-circle'></i>SEO básico (título, descrição, etc.)</li>
+                        <li><i class='bx bx-check-circle'></i>Entrega em até 5 dias úteis</li>
+                    </ul>
+    
+                    <h4 class="plan__subtitle plan__subtitle--bonus">Bônus Incluso:</h4>
+                    <ul class="plan__list">
+                        <li><i class='bx bx-gift'></i>Publicação completa (deploy)</li>
+                        <li><i class='bx bx-gift'></i>Orientação simples de uso</li>
+                        <li><i class='bx bx-gift'></i>1 revisão visual gratuita em até 3 meses</li>
+                    </ul>
+                    <a href="https://wa.me/5511948562304?text=Olá,%20Giovanna!%20Tenho%20interesse%20no%20Plano%20Essencial." target="_blank" class="button plan__button">Quero este plano</a>
+                </div>
+    
+                <!-- Card 2: Profissional (Destaque) -->
+                <div class="plan__card plan__card--highlight">
+                    <i class='bx bx-briefcase-alt-2 plan__icon'></i>
+                    <h3 class="plan__title">Plano Profissional</h3>
+                    <div class="plan__price">a partir de <span>R$ 550</span></div>
+                    <p class="plan__description">Mini site completo para negócios que querem se destacar e ganhar mais autoridade no mercado digital.</p>
+                    
+                    <h4 class="plan__subtitle">Inclui:</h4>
+                    <ul class="plan__list">
+                        <li><i class='bx bx-check-circle'></i>Até 3 páginas (ex: Home, Sobre, Contato)</li>
+                        <li><i class='bx bx-check-circle'></i>Design exclusivo e responsivo</li>
+                        <li><i class='bx bx-check-circle'></i>Integração com mapa e formulário</li>
+                        <li><i class='bx bx-check-circle'></i>SEO básico em todas as páginas</li>
+                        <li><i class='bx bx-check-circle'></i>Carregamento rápido otimizado</li>
+                        <li><i class='bx bx-check-circle'></i>Entrega em até 7 dias úteis</li>
+                    </ul>
+    
+                    <h4 class="plan__subtitle plan__subtitle--bonus">Bônus Incluso:</h4>
+                    <ul class="plan__list">
+                         <li><i class='bx bx-gift'></i>Publicação e orientação completa</li>
+                         <li><i class='bx bx-gift'></i>Suporte por 7 dias após entrega</li>
+                         <li><i class='bx bx-gift'></i>1 revisão visual completa em até 6 meses</li>
+                    </ul>
+                    <a href="https://wa.me/5511948562304?text=Olá,%20Giovanna!%20Tenho%20interesse%20no%20Plano%20Profissional." target="_blank" class="button plan__button">Quero este plano</a>
+                </div>
+    
+                <!-- Card 3: Performance -->
+                <div class="plan__card">
+                    <i class='bx bxs-diamond plan__icon'></i>
+                    <h3 class="plan__title">Plano Performance</h3>
+                    <div class="plan__price">a partir de <span>R$ 890</span></div>
+                    <p class="plan__description">Presença digital completa com foco em conversão, autoridade e crescimento acelerado.</p>
+                    
+                    <h4 class="plan__subtitle">Inclui:</h4>
+                    <ul class="plan__list">
+                        <li><i class='bx bx-check-circle'></i>Até 5 páginas com design premium</li>
+                        <li><i class='bx bx-check-circle'></i>Textos pensados para conversão (copy)</li>
+                        <li><i class='bx bx-check-circle'></i>SEO local avançado e performance mobile</li>
+                        <li><i class='bx bx-check-circle'></i>Integração com Analytics, Pixel, Calendly</li>
+                        <li><i class='bx bx-check-circle'></i>E-mail marketing (opcional)</li>
+                        <li><i class='bx bx-check-circle'></i>Entrega em até 10 dias úteis</li>
+                    </ul>
+    
+                    <h4 class="plan__subtitle plan__subtitle--bonus">Bônus Premium:</h4>
+                    <ul class="plan__list">
+                         <li><i class='bx bx-gift'></i>Suporte de 15 dias pós-entrega</li>
+                         <li><i class='bx bx-gift'></i>Consultoria expressa de posicionamento</li>
+                         <li><i class='bx bx-gift'></i>Revisão completa em até 1 ano</li>
+                         <li><i class='bx bx-gift'></i>Desconto exclusivo em redesign futuro</li>
+                    </ul>
+                    <a href="https://wa.me/5511948562304?text=Olá,%20Giovanna!%20Tenho%20interesse%20no%20Plano%20Performance." target="_blank" class="button plan__button">Quero este plano</a>
+                </div>
+            </div>
+            <div class="plans__note container">
+                <i class='bx bx-cog'></i>
+                <p><strong>Observação:</strong> Todos os planos podem ser personalizados com recursos adicionais (blog, galeria, login, etc.) com valores ajustados conforme a complexidade do projeto.</p>
+            </div>
+        </section>
+
         <section class="ideal-for section" id="ideal-for"> <h2 class="section__title container">Este serviço é ideal para você se...</h2> <div class="ideal-for__container container grid"> <div class="ideal-for__item"><i class='bx bx-check-shield'></i><span>Você quer <strong>vender mais online</strong> mas não sabe por onde começar.</span></div> <div class="ideal-for__item"><i class='bx bx-check-shield'></i><span>Você precisa de um site que <strong>gere autoridade e confiança</strong> para sua marca.</span></div> <div class="ideal-for__item"><i class='bx bx-check-shield'></i><span>Você tentou criar um site antes, mas ele <strong>não trouxe resultados concretos</strong>.</span></div> <div class="ideal-for__item"><i class='bx bx-check-shield'></i><span>Você busca um parceiro técnico para <strong>cuidar de tudo</strong>, permitindo que você foque no seu negócio.</span></div> </div> </section>
         <section class="faq section" id="faq"> <h2 class="section__title container">Dúvidas Comuns, Respostas Diretas</h2> <div class="faq__container container grid"> <details class="faq__item"><summary class="faq__question"><span>Quanto tempo leva para meu site ficar pronto?</span><i class='bx bx-chevron-down faq__chevron'></i></summary><p class="faq__answer">Uma Landing Page de alta performance leva de 3 a 5 dias. Um site institucional completo, de 7 a 15 dias. O prazo exato depende da complexidade do seu projeto e será definido de forma transparente na nossa proposta.</p></details> <details class="faq__item"><summary class="faq__question"><span>Preciso já ter um design ou layout?</span><i class='bx bx-chevron-down faq__chevron'></i></summary><p class="faq__answer">Absolutamente não. Posso criar um design exclusivo e de alta conversão para você, alinhado à identidade da sua marca. Se já tiver um layout (em Figma, por exemplo), transformo-o em um site funcional e otimizado com fidelidade total.</p></details> <details class="faq__item"><summary class="faq__question"><span>Você também cuida da publicação do site (hospedagem)?</span><i class='bx bx-chevron-down faq__chevron'></i></summary><p class="faq__answer">Com certeza. O serviço é completo. Cuido de todo o processo técnico, desde a configuração do domínio e da melhor hospedagem para sua necessidade, até a publicação final. Você não precisa se preocupar com nada.</p></details> </div> </section>
         <section class="contact section" id="contact"> <div class="cta__container container"> <div class="cta__decoration cta__decoration--1"></div> <div class="cta__decoration cta__decoration--2"></div> <h2 class="cta__title">Sua ideia merece sair do papel com excelência digital.</h2> <p class="cta__text">Não deixe sua concorrência sair na frente. A oportunidade de ter uma presença online que gera autoridade e vendas está a uma mensagem de distância. Vamos transformar sua visão em uma experiência digital inesquecível.</p> <a href="https://wa.me/5511948562304?text=Olá,%20Giovanna!%20Vi%20seu%20portfólio%20e%20quero%20transformar%20minha%20ideia%20em%20realidade." target="_blank" class="button cta__button">Fale Comigo Agora no WhatsApp <i class='bx bxl-whatsapp'></i></a> </div> </section>
@@ -179,6 +265,10 @@
     <footer class="footer">
         <p>&copy; 2025 Giovanna Mayumi. Todos os direitos reservados. Uma experiência digital construída do zero.</p>
     </footer>
+
+    <a href="https://wa.me/5511948562304?text=Olá,%20Giovanna!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20saber%20mais." target="_blank" class="whatsapp-float" aria-label="Fale comigo no WhatsApp">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
