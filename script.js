@@ -75,6 +75,8 @@ document.addEventListener('DOMContentLoaded', () => {
         sr.reveal(`.service__card`, { interval: 150 });
         sr.reveal(`.testimonial__card`, { interval: 150, scale: 0.95 });
         sr.reveal(`.projects__container_wrapper`);
+        sr.reveal(`.plan__card`, { interval: 150, scale: 0.98 });
+        sr.reveal(`.plans__note`);
         sr.reveal(`.ideal-for__item`, { interval: 100 });
         sr.reveal(`.faq__item`, { interval: 100 });
         sr.reveal(`.cta__container`);
